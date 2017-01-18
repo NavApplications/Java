@@ -18,6 +18,33 @@ Why string is immutable and final
 Why char array is preferred for storing passwords
   -> strings will be available in memory garbage collected/char array can be cleared once the need is complete
  
+Process vs Thread
+  -> self contained execution environment/single task of execution within the process
+ 
+Daemon thread
+  -> runs in background that does not stop jvm from terminating
+ 
+Thread creation
+  -> create a class that implements runnable interface and create an instance
+  -> create a class that extends thread and create an instance
+ 
+Thread lifecycle
+  -> new, runnable, running, wait, dead
+ 
+Start vs Run in a thread
+  -> start will run in same thread/run will spawn a new thread
+ 
+Thread scheduler
+  -> os service that allocates the cpu time to the available runnable threads for execution
+  -> implementation based on thread priority or time slicing
+  -> the high priority thread gets executed first but not guaranteed
+  -> time slicing technique divides the cpu time to the allocated threads based on thread priorty or long awaiting threads
+ 
+Join
+  -> blocks the execution of the thread until the specified thread completes the execution
+ 
+
+
 
 
   
