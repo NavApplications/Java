@@ -1,1 +1,23 @@
-#Java
+Create string objects
+  -> using new keyword, creates object in heap memory and stores value in string pool
+  -> using string literal, stores values in string pool
+ 
+String literal vs new
+  -> string literal assigns the reference the same value if already present in string pool/new does not check
+  -> intern method is used to store the string value in string pool or return the reference if the value is already present
+ 
+String vs StringBuffer vs StringBuilder
+  -> immutable/mutable/mutable
+  -> thread safe/thread safe/non threadsafe
+
+Why string is immutable and final
+  -> multiple references have same value stored in string pool; any changes impacts all references
+  -> avoids synchronization as it is thread safe
+  -> hashcode is cached at the time of creation , which makes the ideal candidate for keys in maps
+
+Why char array is preferred for storing passwords
+  -> strings will be available in memory garbage collected/char array can be cleared once the need is complete
+ 
+
+
+  
