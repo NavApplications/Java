@@ -4,5 +4,8 @@ What is JSP
 What is the purpose of servlet and servlet mapping in web.xml
 How to import classes in jsp
 How static and dynamic includes handled in jsp
-What is the difference between forward and redirect in jsp
-What is the difference between jsp scriplet tag and declartion tag
+Difference between forward and redirect in jsp
+Difference between jsp scriplet tag and declartion tag
+How mvc is handled in servlet applications
+What is servlet lifecycle
+How to set and get values from JSP beans
