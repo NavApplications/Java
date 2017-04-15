@@ -9,3 +9,6 @@ Difference between jsp scriplet tag and declartion tag
 How mvc is handled in servlet applications
 What is servlet lifecycle
 How to set and get values from JSP beans
+What are the different type of bean scopes
+How to set the bean properties in jsp
+How to submit form action with jsp
