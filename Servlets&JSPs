@@ -12,3 +12,8 @@ How to set and get values from JSP beans
 What are the different type of bean scopes
 How to set the bean properties in jsp
 How to submit form action with jsp
+What is session object and how values can be set to session
+How to support session without cookies
+What is servlet context object
+What is the pupose of context-param in web.xml
+How to set and retreive values from cookies
