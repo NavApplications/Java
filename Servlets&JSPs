@@ -17,3 +17,7 @@ How to support session without cookies
 What is servlet context object
 What is the pupose of context-param in web.xml
 How to set and retreive values from cookies
+How to configure jndi datasource
+How to access the request values, bean values using jstl
+How to iterate using foreach jstl tag
+How to create custom tags
